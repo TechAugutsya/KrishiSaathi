@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aboutUs</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Itim&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(82, 71, 46); */
+  background-image: linear-gradient(to right,rgb(241, 142, 117), rgb(141, 145, 239));
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.head {
+  display: flex;
+  background-image: linear-gradient(to right, #d1d2d4, #b1b3b5);
+  height: 10em;
+}
+#h1 {
+      color: rgb(20, 30, 27);
+      font-size: 5vw;
+      font-family: 'Itim', cursive;
+      margin-top: 35px;
+      padding-left: 280px;
+      text-shadow: 1px 2px darkred;
+    }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card {
+    border-radius: 50px;
+    background-color: #a19f9f;
+}
+
+.button:hover {
+  background-color: #b4b0b0;
+  
+}
+.button{
+    border-radius: 20px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+footer {
+      padding: 10px 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-family: 'Itim', cursive;
+      background-image: radial-gradient(rgb(232, 233, 230), rgb(210, 211, 211), rgb(165, 167, 167));
+    }
+
+    .footer-contact,
+    .footer-social,
+    .footer-service-areas {
+      width: 30%;
+      margin-bottom: 10px;
+    }
+
+    .footer-contact h3,
+    .footer-social h3,
+    .footer-service-areas h3 {
+      font-size: 24px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .footer-contact ul,
+    .footer-social ul,
+    .footer-service-areas ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer-contact li,
+    .footer-social li,
+    .footer-service-areas li {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .footer-contact a,
+    .footer-social a {
+      color: #555;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-contact a:hover,
+    .footer-social a:hover {
+      color: #222;
+    }
+
+    .footer-service-areas li:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer-social a i {
+      font-size: 24px;
+      margin-right: 20px;
+      color: #555;
+      transition: color 0.3s;
+    }
+
+    .footer-social a:hover i {
+      color: #222;
+    }
+
+    .footer-service-areas h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #222;
+    }
+
+    .footer-service-areas li {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+    }
+
+    .footer-service-areas li:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer-copyright {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #0b0a0a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-copyright p {
+      margin: 0;
+    }
+
+    @media (max-width: 767px) {
+      footer {
+        padding: 40px;
+      }
+
+      .footer-contact,
+      .footer-social,
+      .footer-service-areas {
+        width: 100%;
+      }
+    }
+    .tooltip-inner {
+        max-width: 500px !important;
+        width: 500px !important;
+        height: 120px !important;
+        color: #2d052f !important;
+        font-size: 20px !important;
+        font-family: 'Itim', cursive !important;
+        background-color:#85f4ed !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 20px !important;
+    }
+</style>
+</head>
+<body>
+    <div class="head">
+        <img src="giphy.gif" alt="Error">
+        <h1 id="h1"><span style="color:#b77126;text-shadow:1px 2px rgb(16, 59, 6)"> Laundry </span>wala</h1>
+      </div><br>
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div><br>
+<div style="background-color: #464626;" class="about-section">
+    <h1>OUR STORY</h1>
+    <p>Company history: You could start by providing some background on how and why the company was founded.</p>
+    <p> This could include information on the founders, key milestones in the company's development, and any notable achievements.</p>
+  </div><br>
+  <div class="card bg-dark text-white">
+    <img class="card-img" src="about1img.jfif" width="100%" alt="Card image">
+    <div class="card-img-overlay">
+    </div>
+  </div><br>
+  <div style="background-color: #7a6383;" class="about-section">
+    <h1>OUR MISSION</h1>
+    <p>The mission of a laundry management system is to empower laundry businesses to focus on their core operations by automating routine tasks and providing real-time insights into their operations, leading to increased productivity, profitability, and customer satisfaction.</p>
+  </div>
+  <br>
+<div class="card bg-dark text-white">
+    <img class="card-img" src="about5img.jpg" width="100%" alt="Card image">
+    <div class="card-img-overlay">
+    </div>
+  </div><br>
+  <div style="background-color: #476a77;" class="about-section">
+    <h1>VALUES</h1>
+    <p>You could also write about the company's values and what sets it apart from its competitors.</p>
+    <p> This could include a commitment to customer service, a focus on sustainability, or a dedication to innovation.</p>
+  </div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+    <center><img src="Prabhat-modified.png" alt="Jane" style="width:80%"></center>
+      <div class="container">
+        <h2>Prabhat Singh</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>prabhat@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img  src="rizwan.png" alt="Mike" style="width:80%"></center>
+      <div class="container">
+        <h2>Rizwan Ahamad</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>rizwan@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    <center> <img src="vishal.png" alt="John" style="width:80%"></center>
+      <div class="container">
+        <h2>Vishal Kumar</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>vishal@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about-section">
+    <h1>Customer success stories</h1>
+    <p>You could also include examples of how the laundry management system has helped businesses to achieve their goals and improve their operations. </p>
+    <p> This could be through case studies, testimonials, or other types of customer feedback.</p>
+  </div><br>
+  <footer>
+    <div class="footer-contact">
+      <h3>Get in Touch</h3>
+      <ul>
+        <li>Phone: <a href="tel:8299364286">8299364286</a></li>
+        <li>Email: <a href="mailto:info@onlinelaundry.com">info@laundrywala.com</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="https://www.facebook.com/onlinelaundry"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="https://www.instagram.com/onlinelaundry"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://twitter.com/onlinelaundry"><i class="fab fa-twitter"></i> Twitter</a></li>
+      </ul>
+    </div>
+    <div class="footer-service-areas">
+      <h3>Service Areas</h3>
+      <ul>
+        <li>ABES</li>
+        <li>AKG</li>
+        <li>KIET</li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2023 Laundry Wala. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
